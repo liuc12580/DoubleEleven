@@ -8,4 +8,8 @@ public class OrderEntity {
     private Integer orderId;
 
     private String orderNum;
+
+    private String orderName;
+
+    private String orderPrice;
 }
