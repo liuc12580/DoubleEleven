@@ -16,4 +16,7 @@ public class OrderEntity {
     private String createTime;
 
     private Integer payType;
+
+    private String payTime;
+
 }
