@@ -9,6 +9,8 @@ public class OrderEntity {
 
     private String orderNum;
 
+    private String userName;
+
     private String orderName;
 
     private String orderPrice;
