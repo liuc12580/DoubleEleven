@@ -12,4 +12,6 @@ public class OrderEntity {
     private String orderName;
 
     private String orderPrice;
+
+    private String createTime;
 }
