@@ -11,6 +11,8 @@ public class OrderEntity {
 
     private String userName;
 
+    private Integer orderStatus;
+
     private String orderName;
 
     private String orderPrice;
