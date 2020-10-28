@@ -31,7 +31,7 @@ public class OrderController {
     @RequestMapping("/getUserName")
     public String getUserName() {
         System.out.println(name + "--" + port);
-//        Object userName = redisUtil.get(RedisConstant.GET_USER_NAME);
+        Object userName = redisUtil.get(RedisConstant.GET_USER_NAME);
         return name + "--" + port;
     }
 

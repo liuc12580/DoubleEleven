@@ -1,5 +1,7 @@
 package com.jk.service.hystrix;
 
+import com.jk.entity.SysUser;
+import com.jk.entity.Tree;
 import com.jk.entity.UserEntity;
 import com.jk.service.UserService;
 import org.springframework.stereotype.Component;
@@ -16,6 +18,21 @@ public class UserServiceHystrix implements UserService {
 
     @Override
     public List<UserEntity> list(UserEntity user) {
+        return null;
+    }
+
+    @Override
+    public SysUser selectUserInfoByCode(String userCode) {
+        return null;
+    }
+
+    @Override
+    public List<Tree> selectTreeList(Integer id) {
+        return null;
+    }
+
+    @Override
+    public List<String> selectPowerKeyList(Integer userId) {
         return null;
     }
 
